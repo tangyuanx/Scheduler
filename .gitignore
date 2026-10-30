@@ -1,0 +1,21 @@
+# 依赖与构建产物
+node_modules/
+dist/
+
+# 系统与外部盘产生的杂项
+.DS_Store
+._*
+*.log
+.chrome-prof/
+.npm-cache/
+
+# 编辑器 / 工具临时文件
+vite.config.js.timestamp-*.mjs
+.workbuddy/
+.workbuddy-ai/
+.wbapp_*.genie
+
+# 冒烟测试的中间产物
+scripts/.ssr-check.*
+scripts/.app.iife.js
+scripts/dom-check.cjs
